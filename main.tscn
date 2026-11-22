@@ -1,7 +1,10 @@
 [gd_scene format=3 uid="uid://d2rbrqsrxw7uw"]
 
+[ext_resource type="Script" uid="uid://b53ipxako6l7w" path="res://maze.gd" id="1_ig7tw"]
+
 [node name="Main" type="Node2D" unique_id=202398748]
 
 [node name="Maze" type="Node2D" parent="." unique_id=435795925]
+script = ExtResource("1_ig7tw")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=866990440]
